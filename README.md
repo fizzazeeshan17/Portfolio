@@ -2,6 +2,10 @@ Welcome to my portfolio!
 
 You can run this project by using:
 
+`npm i`
+
+Downloads all required node packages
+
 `npm start`
 
 Runs the app in the development mode.
