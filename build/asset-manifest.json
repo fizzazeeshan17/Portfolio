@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c3eb2c7.css",
+    "main.js": "/static/js/main.defd57ce.js",
+    "static/media/myImage.jpg": "/static/media/myImage.2e29341983d2099ad414.jpg",
+    "static/media/Fizza's CV.pdf": "/static/media/Fizza's CV.f47ad9d6a7e07a9c3212.pdf",
+    "index.html": "/index.html",
+    "main.5c3eb2c7.css.map": "/static/css/main.5c3eb2c7.css.map",
+    "main.defd57ce.js.map": "/static/js/main.defd57ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c3eb2c7.css",
+    "static/js/main.defd57ce.js"
+  ]
+}
