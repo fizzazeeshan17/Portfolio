@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="row mt-5">
           <div
             className="col-12 text-center fw-bold fs-1 text-black px-5 mb-5"
-            id="heading"
+            id="contact"
           >
             Contact Me
           </div>

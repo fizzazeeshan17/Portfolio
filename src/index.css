@@ -5,7 +5,6 @@ body {
   margin: 0;
   width: 100%;
   font-family: "Roboto", sans-serif;
-
 }
 #main_hero {
   height: 500px;
@@ -24,34 +23,73 @@ body {
 .slider {
   width: 80%;
   height: 15px;
-  border-radius: 34px;
+  border-radius: 35px;
   background-color: grey;
 }
 .inner-slider {
   background-color: orange;
   height: 15px;
-  border-radius: 34px;
-}
-.btn {
-  background-color: rgb(196, 136, 26);
-  border-radius: 40px;
-  align-items: right;
-  text-align: right;
-  transition: all 0.3s linear;
-}
-.btn:hover {
-  background-color: darkgoldenrod;
-  border: 2px solid orange;
-  text-shadow: 2cm;
+  border-radius: 35px;
 }
 
-.image_fizza{
+.btn {
+  position: relative;
+  margin: auto;
+  padding: 10px 16px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 10px;
+  background: orange;
+  width: 45px;
+  height: 55px;
+  transition: all 0.3s ease;
+}
+
+.btn span {
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: black;
+}
+
+.btn svg {
+  position: relative;
+  top: 0;
+  margin-left: 8px;
+  fill: none;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.btn:hover:before {
+  width: 100%;
+  background: orange;
+}
+
+.btn:hover svg {
+  transform: translateX(0);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.image_fizza {
   text-align: left;
   width: 90%;
 }
 
-.image_project
-{
+.image_project {
   text-align: left;
   width: 30%;
 }
@@ -59,7 +97,7 @@ body {
 /*CONTACT*/
 
 #icons {
-  font-size: 45px;
+  font-size: 60px;
 }
 
 .mail {
@@ -72,4 +110,49 @@ body {
   color: rgb(40, 133, 170);
 }
 
+/*BACKGROUND*/
 
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(
+    -60deg,
+    lightgray 50%,
+    rgba(0, 0, 0, 0.301) 30%
+  );
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(25%);
+  }
+}
+
+/*NAV BAR*/
+
+.navbar a {
+  color: #f6f4e6;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
