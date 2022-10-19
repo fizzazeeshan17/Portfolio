@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import myImage from "./myImage.jpg";
+import myImage from "./myImages.jpg";
+
 const Info = () => {
   return (
     <>
@@ -28,12 +29,14 @@ const Info = () => {
                 </span>
               </div>
             </div>
+            
             <div id="image_fizza">
               <img src={myImage} alt="myImage" className="image_fizza" />
             </div>
           </div>
         </div>
       </div>
+      
     </>
   );
 };

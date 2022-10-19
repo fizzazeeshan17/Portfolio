@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import Navbar from "./Navbar.js";
 
+
 const App = () => {
   return (
     <>
@@ -13,6 +14,8 @@ const App = () => {
       <About />
       <Projects />
       <Contact />
+     
+     
     </>
   );
 };

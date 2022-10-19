@@ -1,3 +1,8 @@
+import HKRVET from "./HKRVET.jpg";
+import myImage from "./myImages.jpg";
+import yummysaviour from "./yummy saviour.jpg";
+import PigDice from "./pig dice.png";
+
 export const slider = [
   {
     text: "HTML",
@@ -55,17 +60,17 @@ export const social = [
 
 export const projects = [
   {
-    image: "./Images/template1.png",
+    image: yummysaviour,
     heading: "Yummy Saviour",
-    link: "https://github.com/fizzazeeshan17/HKRVET",
+    link: "https://github.com/fizzazeeshan17/YummySaviour",
   },
   {
-    image: "./HKRVET.jpg",
+    image: HKRVET,
     heading: "HKRVet",
     link: "https://github.com/fizzazeeshan17/HKRVET",
   },
   {
-    image: "./Images/template3.png",
+    image: PigDice,
     heading: "PigDice Game",
     link: "https://github.com/fizzazeeshan17/pig-dice-game",
   },

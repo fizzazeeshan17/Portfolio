@@ -156,3 +156,28 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+ 
+.mb-5  {
+  color: black;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+    
+  } 
+}
+
+#card-img {
+  width: 100px;
+  height: 250px;
+}
+
+
+  
+  
+ 

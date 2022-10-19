@@ -1,6 +1,7 @@
 import React from "react";
 import { projects } from "./Data";
 
+
 const Projects = () => {
   return (
     <>
@@ -17,21 +18,22 @@ const Projects = () => {
             return (
               <>
                 <div
-                  className="col-md-4 col-sm-6 card bg-transparent border-0 text-center pb-4"
+                  className="col-md-4 col-sm-6 card bg-transparent border-0 text-center pb-5"
                   key={key}
                 >
                   <div className="card-img-top">
                     <a href={`${link}`}>
                       <img
                         src={image}
-                        alt={heading}
-                        className="w-100 p-3"
+                        alt={image}
+                        className="w-100 p-8"
                         id="card-img"
                       />
                     </a>
                   </div>
+                  
                   <div
-                    className="fw-bold fs-5 card-title"
+                    className="fw-bold fs-4 card-title"
                     style={{ color: "orange" }}
                   >
                     {heading}
