@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://fizzazeeshan17.github.io/Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
