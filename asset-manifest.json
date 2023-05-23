@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.58e9d43e.css",
+    "main.js": "/Portfolio/static/js/main.fa193dda.js",
+    "static/media/pig dice.png": "/Portfolio/static/media/pig dice.f7b7a3ade19a43babad5.png",
+    "static/media/myImages.jpg": "/Portfolio/static/media/myImages.8ed9e658e6e1dddc77f8.jpg",
+    "static/media/yummy saviour.jpg": "/Portfolio/static/media/yummy saviour.5254455517ce2ded8845.jpg",
+    "static/media/Fizza's CV.pdf": "/Portfolio/static/media/Fizza's CV.f47ad9d6a7e07a9c3212.pdf",
+    "static/media/HKRVET.jpg": "/Portfolio/static/media/HKRVET.c7e4ac1f9c90aaa4eb99.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.58e9d43e.css.map": "/Portfolio/static/css/main.58e9d43e.css.map",
+    "main.fa193dda.js.map": "/Portfolio/static/js/main.fa193dda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e9d43e.css",
+    "static/js/main.fa193dda.js"
+  ]
+}
